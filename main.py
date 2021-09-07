@@ -110,6 +110,3 @@ def add_article():
     if results == "4":
         return jsonify("HEAVY")
 
-
-if __name__ == "__main__":
- app.run(debug=True)
