@@ -12,7 +12,7 @@ CORS(app)
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@localhost/flask'
 # app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-Pkl_Filename = "RF_limit.pickle"  
+Pkl_Filename = "RF_limit-New.pickle"  
 with open(Pkl_Filename, 'rb') as file:  
         Pickled_LR_Model = pickle.load(file)
 
